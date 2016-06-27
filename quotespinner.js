@@ -37,5 +37,5 @@ var spinner = {
 $(document).ready(function() {
   spinner.initial();
   spinner.dotnav();
-  interval = window.setInterval(spinner.auto, 4500);
+  interval = window.setInterval(spinner.auto, 3000);
 });
